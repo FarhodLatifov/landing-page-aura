@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AURA — Студия премиального интерьерного дизайна</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="grain"></div>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="logo">AURA</a>
+          <button
+            class="menu-toggle"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            aria-controls="site-menu"
+          >
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+          </button>
+          <ul class="nav-links" id="site-menu">
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li class="nav-cta-item">
+              <button class="btn btn-outline">Обсудить проект</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Студия интерьерных трансформаций</p>
+          <h1 class="h1">
+            Проектируем <span>пространства</span> для вашей жизни
+          </h1>
+          <p class="subtitle">
+            Создаем авторские интерьеры, где архитектурная эстетика встречается
+            с безупречным комфортом. От идеи до реализации под ключ.
+          </p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-primary">Начать проект</a>
+            <a href="#projects" class="btn btn-text">Смотреть работы →</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-value">9+</span>
+              <span class="stat-label">лет опыта</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">120</span>
+              <span class="stat-label">реализованных проектов</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">15</span>
+              <span class="stat-label">городов присутствия</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Подход</p>
+          <h2 class="h2">Почему выбирают нас</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card reveal">
+            <div class="icon">01</div>
+            <h3>Индивидуальность</h3>
+            <p>
+              Никаких шаблонов. Каждый проект — отражение вашего характера,
+              привычек и образа жизни.
+            </p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="icon">02</div>
+            <h3>Полный цикл</h3>
+            <p>
+              Берем на себя все: от концепции и 3D-визуализации до комплектации
+              и авторского надзора.
+            </p>
+          </div>
+          <div class="benefit-card reveal">
+            <div class="icon">03</div>
+            <h3>Сроки и бюджет</h3>
+            <p>
+              Фиксируем стоимость и даты в договоре. Вы точно знаете, когда
+              заселитесь в новый дом.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Портфолио</p>
+          <h2 class="h2">Недавние проекты</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-item reveal">
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+              alt="Интерьер 1"
+            />
+            <div class="project-info">
+              <h3>Penthouse in Dubai</h3>
+              <p>Минимализм / 140 м²</p>
+            </div>
+          </div>
+          <div class="project-item reveal">
+            <img
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+              alt="Интерьер 2"
+            />
+            <div class="project-info">
+              <h3>Modern Villa</h3>
+              <p>Скандинавский стиль / 280 м²</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div class="cta-text">
+            <p class="eyebrow">Консультация</p>
+            <h2 class="h2">Готовы преобразить ваш дом?</h2>
+            <p>
+              Оставьте заявку на бесплатную консультацию ведущего дизайнера и
+              получите персональный план работ.
+            </p>
+          </div>
+          <form id="contactForm" class="cta-form">
+            <input type="text" placeholder="Ваше имя" required />
+            <input type="tel" placeholder="Номер телефона" required />
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            <p class="form-note">
+              Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <p class="logo">AURA</p>
+          <p>© 2026 AURA Design Studio. Все права защищены.</p>
+          <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
